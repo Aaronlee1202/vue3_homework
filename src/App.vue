@@ -1,21 +1,21 @@
 <template>
   <div>
     <Navigation />
-    <Content />
+    <router-view></router-view>
     <Footer />
   </div>
 </template>
 
 <script>
 import NavigationVue from "./components/Navigation.vue";
-import ContentVue from "./components/Content.vue";
 import FooterVue from "./components/Footer.vue";
+// import HomeVue from "./view/home.vue";
 export default {
   name: "App",
   components: {
     Navigation: NavigationVue,
-    Content: ContentVue,
     Footer: FooterVue,
+    // Home: HomeVue,
   },
 };
 </script>

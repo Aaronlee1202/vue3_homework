@@ -80,7 +80,7 @@ export default {
 <style scoped>
 .container {
   width: 1539px;
-  height: 2000px;
+  height: 1000px;
 }
 .mx-auto {
   margin-left: auto;

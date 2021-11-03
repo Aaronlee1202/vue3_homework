@@ -2,7 +2,7 @@
   <nav class="Header">
     <ul class="inline-block-nav">
       <li class="logo_li">
-        <a href="#" class="logo">
+        <a href="/chat" class="logo">
           <img src="../assets/logo/linkedin.png" alt="" />
         </a>
       </li>
@@ -19,11 +19,11 @@
         <img class="icon" src="../assets/logo/jobs.png" />
         <a class="box_text">JOBS</a>
       </div>
-      <div href="#" class="icon_box">
+      <div href="/chat" class="icon_box">
         <img class="icon" src="../assets/logo/chat.png" />
         <a class="box_text">CHAT</a>
       </div>
-      <div href="#" class="icon_box">
+      <div href="/" class="icon_box">
         <img class="icon" src="../assets/logo/notices.png" />
         <a class="box_text">NOTICES</a>
       </div>
