@@ -44,6 +44,17 @@
             </div>
           </div>
         </div>
+        <div class="flex p-8 bg-white about">
+          <div class="p-5">
+            <h3>About</h3>
+            <p class="about-content">
+              I'm more experienced in eCommerce web projects and mobile banking
+              apps, but also like to work with creative
+              <br />
+              projects, such as landing pages or unusual corporate websites.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="col-span-3">
         <div class="dashboard_card">
@@ -80,7 +91,16 @@ export default {
 <style scoped>
 .container {
   width: 1539px;
-  height: 1000px;
+  /* height: 1000px; */
+}
+.about {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about-content {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -122,7 +142,7 @@ export default {
   grid-column: span 3 / span 3;
 }
 .p-5 {
-  /* padding: 1.25rem; */
+  padding: 1.25rem;
 }
 .p-8 {
   padding: 2rem;
@@ -215,15 +235,15 @@ export default {
 }
 .connections-button {
   --tw-text-opacity: 1;
-  color: rgba(9,109,161, var(--tw-text-opacity));
+  color: rgba(9, 109, 161, var(--tw-text-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgba(255,255,255, var(--tw-bg-opacity));
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   --tw-border-opacity: 1;
-  border-color: rgba(9,109,161, var(--tw-border-opacity));
+  border-color: rgba(9, 109, 161, var(--tw-border-opacity));
   border-width: 1px;
   border-radius: 0.375rem;
   margin-right: 0.75rem;

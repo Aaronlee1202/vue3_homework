@@ -2,15 +2,15 @@
   <nav class="Header">
     <ul class="inline-block-nav">
       <li class="logo_li">
-        <a href="/chat" class="logo">
+        <router-link to="/" class="logo">
           <img src="../assets/logo/linkedin.png" alt="" />
-        </a>
+        </router-link>
       </li>
       <div class="line"></div>
-      <div href="#" class="icon_box">
+      <router-link to="#" class="icon_box">
         <img class="icon" src="../assets/logo/feed.png" />
         <a class="box_text">FEED</a>
-      </div>
+      </router-link>
       <div href="#" class="icon_box">
         <img class="icon" src="../assets/logo/network.png" />
         <a class="box_text">NETWORK</a>
@@ -19,11 +19,11 @@
         <img class="icon" src="../assets/logo/jobs.png" />
         <a class="box_text">JOBS</a>
       </div>
-      <div href="/chat" class="icon_box">
+      <router-link to="/chat" class="icon_box">
         <img class="icon" src="../assets/logo/chat.png" />
         <a class="box_text">CHAT</a>
-      </div>
-      <div href="/" class="icon_box">
+      </router-link>
+      <div href="#" class="icon_box">
         <img class="icon" src="../assets/logo/notices.png" />
         <a class="box_text">NOTICES</a>
       </div>
@@ -141,7 +141,7 @@ nav > ul {
 /* 滑鼠移到 <a> 時變成深底淺色 */
 nav .icon_box:hover {
   cursor: pointer;
-  background-color: #0275B1;
+  background-color: #0275b1;
   color: white;
 }
 nav a {
@@ -160,7 +160,7 @@ nav a {
   /* 讓行高等於div寬就能垂直置中 */
   line-height: 70px;
 }
-.Header{
+.Header {
   background-color: #ffffff;
 }
 </style>

@@ -9,13 +9,11 @@
 <script>
 import NavigationVue from "./components/Navigation.vue";
 import FooterVue from "./components/Footer.vue";
-// import HomeVue from "./view/home.vue";
 export default {
   name: "App",
   components: {
     Navigation: NavigationVue,
     Footer: FooterVue,
-    // Home: HomeVue,
   },
 };
 </script>
